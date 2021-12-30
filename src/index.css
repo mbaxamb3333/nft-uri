@@ -1,0 +1,2411 @@
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Bold.eot');
+
+  src: url('./Fonts/Morganite-Bold.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Bold.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Bold.woff') format('woff'),
+
+      url('./Fonts/Morganite-Bold.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Book.eot');
+
+  src: url('./Fonts/Morganite-Book.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Book.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Book.woff') format('woff'),
+
+      url('./Fonts/Morganite-Book.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Black.eot');
+
+  src: url('./Fonts/Morganite-Black.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Black.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Black.woff') format('woff'),
+
+      url('./Fonts/Morganite-Black.ttf') format('truetype');
+
+  font-weight: 900;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Light.eot');
+
+  src: url('./Fonts/Morganite-Light.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Light.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Light.woff') format('woff'),
+
+      url('./Fonts/Morganite-Light.ttf') format('truetype');
+
+  font-weight: 300;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-ExtraBold.eot');
+
+  src: url('./Fonts/Morganite-ExtraBold.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-ExtraBold.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-ExtraBold.woff') format('woff'),
+
+      url('./Fonts/Morganite-ExtraBold.ttf') format('truetype');
+
+  font-weight: bold;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-ExtraLight.eot');
+
+  src: url('./Fonts/Morganite-ExtraLight.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-ExtraLight.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-ExtraLight.woff') format('woff'),
+
+      url('./Fonts/Morganite-ExtraLight.ttf') format('truetype');
+
+  font-weight: 200;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Medium.eot');
+
+  src: url('./Fonts/Morganite-Medium.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Medium.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Medium.woff') format('woff'),
+
+      url('./Fonts/Morganite-Medium.ttf') format('truetype');
+
+  font-weight: 500;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-Thin.eot');
+
+  src: url('./Fonts/Morganite-Thin.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-Thin.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-Thin.woff') format('woff'),
+
+      url('./Fonts/Morganite-Thin.ttf') format('truetype');
+
+  font-weight: 100;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Morganite';
+
+  src: url('./Fonts/Morganite-SemiBold.eot');
+
+  src: url('./Fonts/Morganite-SemiBold.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Morganite-SemiBold.woff2') format('woff2'),
+
+      url('./Fonts/Morganite-SemiBold.woff') format('woff'),
+
+      url('./Fonts/Morganite-SemiBold.ttf') format('truetype');
+
+  font-weight: 600;
+
+  font-style: italic;
+
+  font-display: swap;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Palatino';
+
+  src: url('./Fonts/Palatino.eot');
+
+  src: url('./Fonts/Palatino.eot?#iefix') format('embedded-opentype'),
+
+      url('./Fonts/Palatino.woff2') format('woff2'),
+
+      url('./Fonts/Palatino.woff') format('woff'),
+
+      url('./Fonts/Palatino.ttf') format('truetype');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-display: swap;
+
+}
+
+
+
+/*****************default css**/
+
+
+
+body{    font-family: 'Morganite'; margin: 0; padding: 0; background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/PTRNS.png"); background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/PTRNS.png"); background-color: #201D1D;  background-repeat: repeat;  background-size: contain;    background-position: center; padding-bottom: 50px;}
+
+.container{width: 100vw; max-width: 1330px; padding: 0 15px; margin:  0 auto; box-sizing: border-box;}
+
+ul{padding-left: 0;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+.row {display: flex;	justify-content: space-between;align-items: center;}
+
+
+
+
+
+/********haeder******************/
+
+
+a{cursor:pointer;}
+footer a{height:100%;}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 45%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup .close {
+position: absolute;
+top: 0;
+right: 30px;
+transition: all 200ms;
+font-size: 66px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.popup h2 {
+margin-bottom: 22px;
+font-size: 63px;
+margin-top: 0;
+}
+.content {
+font-size: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header .topcolor {
+
+background: #B6FF01;
+
+width: 100%;
+
+height: 50px;
+
+position: relative;
+
+} 
+
+header .top_nav_area {
+
+  background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/haedr_background.png");
+
+  padding-left: 39px;
+
+  padding-right: 40px;
+
+  padding-top: 7px;
+
+  padding-bottom: 7px;
+
+  background-position: center;
+
+  background-size: cover;
+
+  position: absolute;
+
+  width: 100%;
+
+  left: 0;
+
+  right: 0;
+
+  top: 18px;
+
+  max-width: 1270px;
+
+  margin: 0 auto;
+
+  border-radius: 20px;
+
+}
+
+
+
+header .nav {
+
+  position: relative;
+
+}
+
+
+
+header  .nav > .nav-header {
+
+  display: inline;
+
+}
+
+
+
+header .nav > .nav-header > .nav-title {
+
+  display: inline-block;
+
+  font-size: 22px;
+
+  color: #fff;
+
+  padding: 10px 10px 10px 10px;
+
+}
+
+
+
+header .nav > .nav-btn {
+
+  display: none;
+
+}
+
+
+
+header .nav > .nav-links {
+
+  display: inline;
+
+  float: right;
+
+  font-size: 18px;
+
+}
+
+
+
+header .nav > .nav-links > a {
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  color: #fff;
+
+  position: relative;
+
+  font-size: 40px;
+
+  font-weight: 600;
+
+  padding: 0 26px;
+
+}
+
+header .nav > .nav-header > .nav-title a img {
+
+  height: 50px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+header .menu_button {
+
+background: #000;
+
+color: #B6FF01 !important;
+
+border-radius: 10px;
+
+padding: 5px 34px !important;
+
+}
+
+header .menu_button:hover {
+
+color: #fff !important;
+
+transition: all ease-in-out 0.4s;    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+header .nav {
+
+position: relative;
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+}
+
+header .nav > .nav-links > a:hover {
+
+color: #B6FF01;
+
+transition: all ease-in-out 0.5s;
+
+}
+
+header .menu_button::after {
+
+display: none;
+
+}
+
+header .nav > .nav-links > a::after {
+
+position: absolute;
+
+content: "";
+
+width: 0;
+
+height: 5px;
+
+background: #B6FF01;
+
+left: 0;
+
+bottom: -8px;
+
+right: 0;
+
+margin: 0 auto;
+
+transition: all ease-out 0.5s;
+
+}
+
+header .nav > .nav-links > a:hover::after {
+
+width: 80%;
+
+transition: all ease-in 0.5s;
+
+}
+
+
+
+
+
+header  .nav > #nav-check {
+
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+/*****************************baner*****************/
+
+
+
+#baner {
+
+  margin-top: 200px;
+
+  overflow: hidden;
+
+}
+
+#baner h1 {
+
+  color: white;
+
+  font-size: 80px;
+
+  margin: 0;
+
+}
+
+#baner h5 {
+
+  color: #fff;
+
+  font-size: 35px;
+
+  margin-top: 8px;
+
+  font-weight: 400;
+
+  font-family: 'Palatino';
+
+  margin-bottom: 32px;
+
+}
+
+#baner a {
+
+  width: 300px;
+
+  height: 82px;
+
+  display: flex;
+
+  background: #B6FF01;
+
+  font-size: 64px;
+
+  font-weight: 700;
+
+  color: #000;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border-radius: 13.0072px;
+
+}
+
+#baner a:hover {
+
+color: gray;
+
+transition: all ease-in-out 0.4s;
+
+}
+
+#baner img {
+
+width: 100%;
+
+height: 100vh;
+
+object-fit: cover;
+
+}
+
+.abner_left {
+
+width: 53%;
+
+}
+
+.baner_right {
+
+width: 45%;
+
+}
+
+#baner img {
+
+  width: 100%;
+
+  height: 600px;
+
+  object-fit: contain;
+
+}
+
+
+
+/**********************************+ - ******************/
+
+#time {
+
+padding-top: 100px;
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Blur.png");
+
+text-align: center;
+
+background-repeat: no-repeat;
+
+}
+
+
+
+.ECOSYSTEM_iner_div {
+
+margin-top: 100px;
+
+}
+
+
+
+.input-number-decrement, .input-number-increment {
+
+  display: inline-block;
+
+  width: 90px;
+
+  line-height: 38px;
+
+  color: #444;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  height: 62px;
+
+  background-size: contain;
+
+  position: relative;
+
+  background-repeat: no-repeat;
+
+}
+
+.input-number-decrement{background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/minus-icon.png")};
+
+
+
+.input-number-increment::after {
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/plusiconss.png");
+
+position: relative;
+
+background-position: center;
+
+background-size: contain; content: "";
+
+background-repeat: no-repeat;
+
+}
+
+
+
+.ECOSYSTEM_iner_div {
+
+  margin-bottom: 84px;
+
+}
+
+.input-number {
+
+  height: 56px;
+
+  text-align: center;
+
+  font-size: 46px;
+
+  color: #B6FF01;
+
+  background: #000;
+
+  border: 0;
+
+  padding: 0;
+
+  width: 10%;
+
+  margin: 0 -4px;
+
+}
+
+.plus_minus_area {
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+}
+
+.timee{background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/b520b1544719bc59dd5e7d55f76d74f59fbaa585/Timer.svg");}
+
+.timee {
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/b520b1544719bc59dd5e7d55f76d74f59fbaa585/Timer.svg");
+
+height: 204px;
+
+background-size: cover;
+
+background-size: contain;
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+margin-top: 50px;
+
+display: flex;
+
+justify-content: center; position: relative;
+
+align-items: center;
+
+}
+
+.timee::after {
+
+  position: absolute;
+
+  content: "";
+
+  background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/aaaa.jpg");
+
+  height: 74px;
+
+  width: 39%;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+
+  bottom: -22px;
+
+  border-radius: 20px;
+
+}
+
+#time p {
+
+font-size: 135px;
+
+font-weight: 700;
+
+}
+
+
+
+#MANIFESTO {
+
+margin-top: 200px;
+
+}
+
+.aftere {
+
+font-size: 72px;
+
+
+color: #B6FF01;
+
+text-align: center;
+
+width: 200px;
+
+display: block; 
+
+position: relative;
+
+margin: auto;
+
+}
+
+
+
+
+/* .titlu {
+
+  font-size: auto;
+  
+  color: #B6FF01;
+  
+  text-align: center;
+  
+  width: 200px;
+  
+  display: block;
+  
+  position: relative;
+  
+  margin: auto;
+  
+  } */
+
+
+
+
+
+
+
+
+
+.aftere::after{background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Energy.png"); content: "";}
+
+.aftere::after {
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Energy.png");
+
+content: "";
+
+width: 158px;
+
+height: 10px;
+
+position: absolute;
+
+left: -136px;
+
+top: 34px;
+
+}
+
+.aftere::before {
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Energy.png");
+
+content: "";
+
+width: 158px;
+
+height: 10px;
+
+position: absolute;
+
+right:  -136px;
+
+top: 34px;
+
+}
+
+#MANIFESTO {
+position:relative;
+margin-top: 60px;	
+
+}
+#MANIFESTO:before {
+  background-image: url(https://raw.githubusercontent.com/mbaxamb3333/nftist/main/imgpsh_fullsize_anim.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  top: 39px;
+  height: 800px;
+  width: 800px;
+  left: 0;
+}
+#MANIFESTO .pargarph {
+
+  font-size: 34.19px;
+
+  color: #fff;
+
+  text-align: center;
+
+  font-family: 'Palatino';
+
+  font-weight: 400;
+
+  line-height: 46.13px;
+
+  width: 1200px;
+
+  margin: 0 auto;
+
+  margin-top: 30px;
+
+}
+
+.pargarphss {
+
+color: #B6FF01;
+
+font-size: 25px;
+
+text-align: center;
+
+font-family: 'Palatino';
+
+}
+
+.ecostyem_box{background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Block.png");}
+
+
+
+.ecostyem_box {
+
+background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Block.png");text-align: center;
+
+background-repeat: no-repeat;
+
+height: 380px;
+
+width: 380px;
+
+display: flex;
+
+justify-content: center;
+
+align-content: center;
+
+flex-direction: column;
+
+}
+
+.ecostyem_box img {
+
+width: 90px;
+
+height: 90px;margin: 0 auto;
+
+}
+
+.ecostyem_box h3 {
+
+font-family: 'Palatino';
+
+font-size: 19px;margin-top: 24px;
+
+color: #fff;
+
+}
+
+.ecostyem_box p {
+
+color: #fff;
+
+font-size: 17px;
+
+font-family: 'Palatino';
+
+margin-top: 0;
+
+}
+
+
+
+.boxessss{	display: flex; position: relative;
+
+justify-content: space-between;}
+
+  .arrowss {
+
+      width: 94%;
+
+      margin-bottom: -188px;
+
+      margin-top: -213px;
+
+      margin-left: 50px;
+
+  }
+
+
+
+
+
+  #Roadmapss {
+
+      margin-top: 54px;
+
+  }
+
+  .\32 021 {
+
+      font-size: 68px;
+
+      color: #fff;
+
+      text-align: center;
+
+      margin-top: 25px;
+
+  }
+
+  .fiets_snake h4 {
+
+      font-size: 17px;
+
+      color: #fff;
+
+      font-family: 'Palatino';
+
+      line-height: 23px;
+
+  }
+
+  .longh h5 {
+
+      font-size: 70px;margin: 0;
+
+      color: #B6FF01;
+
+  }
+
+  .longh {
+
+      display: flex;
+
+  }
+
+  .longh img {
+
+      margin-left: 20px;
+
+  }
+
+  .fiets_snake {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      margin-top: 0px;height: 400px;
+
+  }
+  .fiets_snake.first {
+      align-items: self-start;
+      margin-top: 50px;
+  }
+  .fiets_snake.raeea {
+      align-items: end;
+  }
+  .fiets_snake.extraraa {
+      align-items: flex-start;
+  }
+  .fiets_snake.raeea.extraraa.last {
+      align-items: end;
+  }
+  .fiets_snake.raeea.extraraa.last img, .second img {
+      margin-right: 20px;
+      margin-left: 0px;
+  }
+
+  .snake {
+
+      display: flex;
+
+      justify-content: space-between;
+
+  }
+
+  
+
+  .snakee {
+
+      width: 48%;
+
+      margin-right: 99px;
+
+  }
+
+.last_snake {
+
+width: 48%;
+
+margin-left: 100px;
+
+}
+
+
+
+.snakee.arteadada {
+
+  width: 100%;
+
+}
+
+.fiets_snake .longh {
+
+display: flex;
+
+width: 25%;
+
+}
+
+.fiets_snake h4 {
+
+width: 109%;
+
+margin-top: 0;
+
+}
+
+.fiets_snake ul li {
+
+  color: white;
+
+  font-size: 17px;
+
+  font-family: 'Palatino';
+
+  line-height: 23px;
+
+  list-style: unset;
+
+  margin-bottom: 16px;
+
+}
+
+h3.\32 021.xtranao {
+
+  margin-bottom: 0;
+
+}
+
+#whaitee {
+
+background: white;
+
+padding: 50px;
+
+text-align: center;
+
+margin-top: 120px;
+
+}
+
+.extraraa .longh {
+
+width: 38%;
+
+}
+
+.fiets_snake .longh {
+
+display: flex;
+
+width: 37%;
+
+}
+
+#whaitee p {
+
+  color: #000;
+
+  font-size: 23px;
+
+  font-family: 'Palatino';
+
+  line-height: 33px;
+
+}
+
+.snakee.arteadada h5 {
+
+margin-left: 15px;
+
+}
+
+#Team{margin-top: 100px;}
+
+.blurtooop {
+
+border-radius: 20px;
+
+width: 100%;
+
+height: 73px;
+
+transform: translate(0,-142px);
+
+}
+
+.boxes_team h3 {
+
+font-size: 36px;
+
+color: #fff;
+
+font-weight: 50;
+
+margin-top: 20px;
+
+font-weight: 600;
+
+margin-bottom: 0;
+
+}
+
+.boxes_team p {
+
+  color: #B6FF01;
+
+  font-size: 19px;
+
+  font-family: 'Palatino';
+
+  margin-top: 5px;
+
+}
+
+.teamss_row {
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 100px;
+
+}
+
+.teamss_row .boxes_team {
+
+width: 15%;
+
+text-align: center;
+
+}
+
+.teamss_row .boxes_team img {
+
+width: 100%;
+
+}
+
+.extradown {
+
+margin-top: 100px;
+
+}
+
+
+
+.accordion {
+
+  background-color: #eee;
+
+  color: #444;
+
+  cursor: pointer;
+
+  padding: 18px;
+
+  width: 100%;
+
+  border: none;
+
+  text-align: left;
+
+  outline: none;
+
+  font-size: 15px;
+
+  transition: 0.4s;
+
+}
+
+
+
+.active, .accordion:hover {
+
+  background-color: #ccc; 
+
+}
+
+
+
+.panel {
+
+  padding: 0 18px;
+
+  display: none;
+
+  background-color: white;
+
+  overflow: hidden;
+
+}
+
+.accordion{background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Chevron.png");}
+
+.accordion::after {
+
+  background-image: url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Chevron.png");
+
+  background-repeat: no-repeat;
+
+  background-position: 99%;
+
+  background-size: 81%;
+
+  content: "";
+
+  position: absolute;
+
+  right: 28px;
+
+  width: 36px;
+
+  height: 35px;
+
+  z-index: 999;
+
+  top: 16px;
+
+  transition: all ease-out 0.3s;
+
+}   
+
+.accordion.active::after {
+
+transition: al ease-in 0.3s;
+
+transform: rotate(180deg);
+
+}
+
+.accordion {
+
+position: relative;
+
+}
+
+.accordion {
+
+  position: relative;
+
+  margin-bottom: 25px;
+
+  background: #C4C4C4;
+
+  padding: 8px 21px;
+
+  font-size: 46px;
+
+  font-weight: 700;
+
+  border-radius: 20px;
+
+  margin-top: 0;
+
+  color: #B6FF01;
+
+  margin-bottom: 0px;
+
+  margin-top: 0px;
+
+  font-family: 'Morganite';
+
+}
+
+
+
+
+
+
+.backround {
+
+background: white;
+
+margin-bottom: 25px; border-radius: 20px ;
+
+}
+
+.panel {
+
+font-family: 'Palatino';
+
+font-size: 21px;
+
+}
+
+.accordion.active {
+
+background: #B6FF01;
+
+color: #000;
+
+}
+
+.panel {
+
+border-radius: 20px;
+
+}
+
+#accordin {
+
+margin-top: 100px;
+
+}
+
+#foter {
+
+margin-top: 100px;
+
+text-align: center;
+
+}
+
+#foter .center img {
+
+  margin: 23px 2px;
+
+}
+
+.social_media img {
+
+  width: 42px;
+
+  margin: 0 69px;
+
+  display: inline-block;
+
+  padding: 0 20px;
+
+}
+
+img#iamgeslast {
+
+  width: 100px;
+
+}
+
+/************7-12-2021***********/
+.discord-mobile{display:none;}
+.time-mint a {
+width: 179px;
+height: 82px;
+display: flex;
+background: #B6FF01;
+font-size: 64px;
+font-weight: 700;
+color: #000;
+justify-content: center;
+align-items: center;
+border-radius: 16px;
+}
+.time-mint{	justify-content: center;
+align-items: center;	display: none;margin-top: 30px;}
+  .teamss_row.mobile-team {
+      flex-wrap: wrap;
+  }
+  .box-1,  .box-2 {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .box-1 {
+      max-width: 600px;
+      margin: 0 auto;
+  }
+  .teamss_row   .box-1  .boxes_team {
+      width: 44%;
+      text-align: center;
+  }
+  .teamss_row .box-2  .boxes_team {
+      width: 27.33%;
+      text-align: center;
+  }
+  .box-2 {
+      width: 80%;
+      margin: 50px auto 0 auto;
+  }
+  .teamss_row.mobile-team {
+      display: none;
+  }
+/***********close***************/
+/***************************resoponsive*******************************************************/
+
+
+
+@media (max-width:1400px) {
+
+  header .top_nav_area {
+
+      width: 94%;
+
+}
+
+
+
+/* 
+@media (max-width: 599px) {
+  .aftere {
+      font-size: max(40px);
+      width: 100%;
+  }
+} */
+
+
+
+
+
+
+header .nav > .nav-links > a {
+
+font-size: 45px;
+
+font-weight: 600;
+
+padding: 0 20px;
+
+}
+
+header .top_nav_area {
+
+padding-left: 15px;
+
+padding-right: 15px;
+
+}
+
+#MANIFESTO .pargarph {
+
+width: 100%;
+
+}
+
+.last_snake {
+
+margin-left: 20px;
+
+}
+
+.snakee {
+
+margin-right: 20px;
+
+}
+
+
+}
+
+
+
+@media (max-width:1366px) {
+#MANIFESTO .pargarph {
+  font-size: 20.19px;
+  line-height:30px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:990px) {
+  .box-2 {
+      width: 100%;
+  }
+  .desktop-team{display: none;}
+  .teamss_row.mobile-team {
+      display: block;
+  }
+  .teamss_row {
+      flex-wrap: wrap;
+  }
+  .aftere {
+      width: auto;
+  }
+  .cnter_snake {
+      display: block !important;width:20%;
+  }
+  .cnter_snake img {
+      width: 100%;
+  }
+  .ecostyem_box h3 {
+      margin-top: 24px;
+      color: #fff;
+      font-family: Morganite;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 22px;margin-bottom: 20px;
+  }
+  .ecostyem_box img {
+      height: auto;
+  }
+  .ecostyem_box:hover h3 {
+      color: #B6FF01;
+  }
+  .ecostyem_box {
+      background-size: cover;
+      background: linear-gradient(111.15deg, rgba(196, 196, 196, 0.8) 1.16%, rgba(196, 196, 196, 0) 100%);
+      border: 0.419947px solid #B6FF01;
+      box-sizing: border-box;
+      backdrop-filter: blur(20.9974px) !important;
+      border-radius: 8.39894px;
+      width: 350px;
+margin: 0 auto 44px;
+  }
+  .container {
+      padding: 0 80px;
+  }
+  .aftere::before {
+      right: 0;
+  }
+  .aftere::after {
+      left: 0;
+  }
+  .time-mint{display:flex;}
+  .baner_right {
+      width: 60%;margin-bottom: 80px;
+  }
+  .abner_left .mint {
+      display: none !important;
+  }
+  .abner_left {
+      text-align: center;order: 2;
+  }
+  .discord-mobile{display:block;}
+  header .nav > .nav-header {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .nav > .nav-btn {
+      display: flex !important;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      height: 100%;
+      align-items: center;
+  }
+
+  .nav > .nav-btn > label {
+
+    display: inline-block;
+
+    width: 50px;
+
+    height: 50px;
+
+    padding: 13px;
+
+  }
+
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+  }
+
+  /* .nav > .nav-btn > label > span {
+
+    display: block;
+
+    width: 25px;
+
+    height: 10px;
+
+    /* border-top: 2px solid #eee; *background-image:url("../image/Hamburger.png");background-repeat:no-repeat;
+
+  } */
+  .nav > .nav-btn > label{background-image:url("https://raw.githubusercontent.com/mbaxamb3333/nftist/main/Hamburger.png");background-repeat:no-repeat;
+      width: 25px;
+      padding:0px;
+      height: 16px;}
+
+  .nav > .nav-links {
+
+    position: absolute;
+
+    display: block;
+
+    width: 100%;
+
+    background-color: #333;
+
+    height: 0px;
+
+    transition: all 0.3s ease-in;
+
+    overflow-y: hidden;
+
+    top: 50px;
+
+    left: 0px;
+
+  }
+
+  .nav > .nav-links > a {
+
+    display: block;
+
+    width: 100%;
+
+  }
+
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+
+    height: 0px;
+
+  }
+
+  .nav > #nav-check:checked ~ .nav-links {
+
+    height: auto;
+
+    overflow-y: auto;
+
+  }
+
+  header .topcolor {
+      height: 150px;
+  }
+
+  header .nav > .nav-header > .nav-title img {
+
+      height: 40px;
+
+  }
+
+  header .top_nav_area {
+
+      width: 73%;
+
+      margin-top: 81px;
+
+  }
+
+  header .top_nav_area {
+
+      padding-top: 10px;
+
+      padding-bottom: 10px;
+
+  }
+
+  .nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+
+      background-color: transparent;
+
+  }
+
+
+
+  header .nav > .nav-links > a {
+
+      font-size: 51px;
+
+      font-weight: 600;
+
+      padding: 0 20px;
+
+      padding-right: 0;
+
+      line-height: 52px;
+
+  }
+
+  .container{width: 100%; max-width: 1330px; padding: 0 15px; margin:  0 auto; box-sizing: border-box;}
+
+
+
+  .nav-links {
+
+      margin-top: 23px;
+
+  }
+
+  header .menu_button {
+
+      background: #000;
+
+      color: #B6FF01 !important;
+
+      border-radius: 10px;
+
+      padding: 5px 34px !important;
+
+      text-align: center;
+
+      width: 73% !important;
+
+      margin-left: 11px;
+
+      margin-top: 15px;
+
+  }
+
+  .row {
+      margin-top: 20vh;
+      flex-direction: column;
+
+  }
+
+  .abner_left {
+
+      width: 100%;
+
+  }
+
+
+
+  .baner_right {
+
+      width: 100%;
+
+  }
+
+  #baner img {
+
+      width: 100%;
+
+      margin-top: 63px;
+
+  }
+
+  #baner h1 {
+
+      font-size: 50px;
+
+  }
+
+  #baner h1 br {
+
+      display: none;
+
+  }
+
+
+
+  #MANIFESTO {
+
+      margin-top: 100px;
+
+  }
+
+
+
+  .arrowss {
+
+      display: none;
+
+  }
+
+
+
+  .boxessss {
+
+      flex-direction: column;
+
+  }
+
+  /* .ecostyem_box {
+
+      width: 100%;
+
+      margin-bottom: 44px;
+
+      background-color: #C4C4C4;
+
+      background-image: none;
+
+      border: solid 2px #B6FF01;
+
+  } */
+
+
+
+  /* .snake {
+
+      flex-direction: column;
+
+  } */
+
+  .snakee {
+
+
+      margin-right: 0px;
+
+  }
+
+  .last_snake {
+
+      margin-left: 0;
+
+  }
+
+  .fiets_snake {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      margin-top: 39px;
+/* 
+      flex-direction: column; */
+
+  }
+
+  .longh img {
+
+      display: none;
+
+  }
+
+
+
+  /* .cnter_snake {
+
+      display: none;
+
+  } */
+
+  .fiets_snake ul {
+
+
+      margin-left: 20px;
+
+  }
+
+  .fiets_snake h4 {
+
+      width: 100%;
+
+  }
+
+  .fiets_snake ul {
+
+      order: 1;
+
+  }
+
+
+
+  /* .teamss_row {
+
+      flex-direction: column;
+
+  } */
+
+  .teamss_row .boxes_team {
+
+      width: 100%;
+
+      text-align: center;
+
+      margin-bottom: 32px;
+
+  }
+
+  .nav > #nav-check:checked ~ .nav-links {
+      display: flex;
+      justify-content: center;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:599px) {
+
+  /* header .nav > .nav-header > .nav-title a img {
+
+      height: 30px !important;
+
+  } */
+
+  .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 85%;
+      position: relative;
+      transition: all 2s ease-in-out;
+    }
+  .aftere{padding-bottom: 20px;}
+  .aftere::before {
+      right: inherit;
+      bottom: 0;
+      top: inherit;    left: 50%;
+      transform: translate(-50%);
+  }
+  .aftere::after {
+     display:none;
+  }
+  .container {
+      padding: 0 50px;
+  }
+  .social_media img {
+      width: 25px;padding: 0px 9px;
+  }
+
+  #baner h1 {
+      line-height: 44px;
+      font-size: 43px;
+
+  }
+
+  #baner h5 {
+      margin-bottom: 27px !important;
+      font-size: 21.437px !important;
+      line-height: 29px !important; 
+
+  }
+
+  #baner a {
+
+      height: 63px !important;
+
+      font-size: 48px !important;
+
+  }
+
+
+
+  .input-number {
+
+      height: 55px;
+
+      width: 20%;
+
+  }
+
+
+
+
+
+
+
+
+
+  header .nav > .nav-links > a {
+
+      margin-bottom: 15px;    font-size: 46px;
+
+  }
+
+  #baner {
+
+      margin-top: 83px;
+
+  }
+
+  #baner h5 {
+
+      font-size: 36px;
+
+      margin-bottom: 27px;
+
+      line-height: 49px;
+
+  }
+
+  #baner a {
+
+      width: 100%;
+
+      height: 79px;
+
+      font-size: 59px;
+
+      border-radius: 16px;
+
+  }
+
+
+
+  #baner img {
+
+      width: 100%;
+
+      margin-top: 50px;
+
+      height: auto !important;
+
+  }
+
+  #time {
+      padding-top: 30px;
+  }
+
+  .input-number-decrement, .input-number-increment {
+
+      height: 64px;
+
+  }
+
+
+
+  #time p {
+
+      font-size: 64px;
+
+      font-weight: 700;
+
+  }
+
+  .timee {
+      width: 300px;
+      margin: 50px auto;
+      height: 121.13px !important;
+  }
+  .timee::after {
+      height: 58px;
+      width: 80%;
+      bottom: -13px;
+  }
+
+  /* .timee::after{
+
+      display: none;
+
+  } */
+
+  .timee {
+
+      height: 250px;
+
+  }
+
+  #MANIFESTO {
+
+      margin-top: 10px;
+
+  }
+
+  .aftere {
+
+      overflow: hidden;
+
+  }
+
+
+
+  .ECOSYSTEM_iner_div {
+
+      margin-bottom: 0;
+
+  }
+
+  #MANIFESTO .pargarph {
+
+      font-size: 20px;
+
+      margin-top: 0;
+
+  }
+
+  #whaitee p {
+
+      font-size: 18px !important;
+
+      line-height: 27px !important;
+
+  }
+
+
+
+
+
+
+
+  #MANIFESTO .pargarph {
+
+      font-size: 20px;
+
+      line-height: 25px;
+
+      margin-top: 29px;
+
+  }
+
+  .pargarphss {
+
+      font-size: 18px;
+
+      line-height: 28px;
+
+  }
+
+  .boxessss {
+
+      margin-top: 39px;
+
+  }
+
+  .ecostyem_box {
+
+      border-radius: 10px;
+
+  }
+
+  .boxessss {
+
+      margin-top: 0;
+
+  }
+
+  .\32 021 {
+
+      font-size: 68px;
+
+      color: #fff;
+
+      text-align: center;
+
+      margin: 19px;
+
+      margin-bottom: -16px;
+
+  }
+
+  #whaitee {
+
+      background: white;
+
+      padding: 10px;
+
+      text-align: center;
+
+      margin-top: 20px;
+
+  }
+
+
+
+  #whaitee p {
+
+      color: #000;
+
+      font-size: 25px;
+
+      font-family: 'Palatino';
+
+      line-height: 33px;
+
+      line-height: 36px;
+
+  }
+
+  .blurtooop {
+
+      display: none;
+
+  }
+
+  #Team {
+
+      margin-top: 20px;
+
+  }
+
+  .teamss_row {
+
+      margin-top: 32px;
+
+  }
+
+
+
+  body {
+
+      overflow-x: hidden;
+
+  }
+  header .topcolor {
+      height: 100px;
+  }
+  header .top_nav_area {
+      width: 73%;
+      margin-top: 35px;
+      padding-right: 15px;
+  }
+
+  header .menu_button {
+
+      width: 40% !important;
+
+      margin-left: 7px;
+
+      margin-top: 15px;
+
+  }
+
+  .ECOSYSTEM_iner_div {
+
+      margin-top: 50px;
+
+  }
+
+  #accordin {
+
+      margin-top: 0;
+
+  }
+
+  .aftere {
+
+      font-size: 55px;
+
+      width: 100%;
+
+  }
+
+}
+
+a {
+  cursor: pointer;
+}
+
+#foter {
+  position: relative;
+  z-index: 9999;
+}
